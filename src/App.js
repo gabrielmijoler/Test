@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import estilos from './App.module.css';
 import { calculaNovoSaldo } from './utils';
 
-import Cabecalho from "./componentes/Cabecalho";
+import Cabecalho from './componentes/Cabecalho';
 import Extrato from './componentes/Extrato';
 import Menu from './componentes/Menu';
 import Principal from './componentes/Principal';
@@ -32,4 +32,3 @@ export default function App() {
     </>
   );
 }
-
